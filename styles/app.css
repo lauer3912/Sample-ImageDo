@@ -1,0 +1,36 @@
+/**************************
+** .app-content
+**************************/
+body {
+  background-color: darkgray;
+}
+.app-content { 
+  background: -webkit-linear-gradient(top, #3a404d, #181c26);
+  background: linear-gradient(to bottom, #3a404d, #181c26);
+  padding:10px;
+  position: absolute;
+  top :0 ;
+  left: 0; 
+  right : 0;
+  bottom:0;
+}
+.app-content .page-header {
+  color: wheat;
+}  
+.app-content .page-header .desc{
+  font-size: 14px;
+  float: right;
+  color: red;
+}
+.app-content .content{
+    position: absolute;
+  top :100px ;
+  left: 0; 
+  right : 0;
+  bottom:0;
+  padding:10px;
+}
+#jxgbox {
+  width:100% ; 
+  height:100%; 
+}
